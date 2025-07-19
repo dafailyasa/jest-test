@@ -1,0 +1,23 @@
+{
+  "name": "jest-test",
+  "version": "1.0.0",
+  "main": "jest.config.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:only": "jest __tests__ --runInBand --reporters=default",
+    "test:coverage": "jest --coverage --runInBand",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "axios": "^1.10.0",
+    "axios-mock-adapter": "^2.1.0",
+    "dotenv": "^17.2.0",
+    "http-status-codes": "^2.3.0",
+    "jest": "^30.0.4",
+    "jest-html-reporters": "^3.1.7",
+    "supertest": "^7.1.3"
+  }
+}
